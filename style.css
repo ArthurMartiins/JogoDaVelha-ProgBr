@@ -1,0 +1,115 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.gradient {
+  background: linear-gradient(225deg, #29678b 0%, #0e1c34 100%);
+  position: relative;
+  height: 100vh;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 45px;
+  font-family: eurostile, sans-serif;
+  list-style: none;
+  margin: 0px;
+  padding: 6px;
+}
+
+h1::before {
+  content: "";
+  display: inline-block;
+  background-image: url(images/Logo\ Antiga.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 52px;
+  height: 50px;
+}
+
+h1::after {
+  content: "";
+  display: inline-block;
+  background-image: url(images/Logo\ ProgBr.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 52px;
+  height: 50px;
+}
+
+.stage {
+  background-image: url(images/Logo-Silhouette.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 80px;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid gray;
+  display: inline-block;
+  border-radius: 5%;
+}
+
+.o {
+  position: relative;
+  background-image: url(/images/Logo\ Antiga.png);
+  width: 50%;
+  height: 50%;
+  background-size: contain;
+  margin: auto;
+  background-repeat: no-repeat;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.x {
+  position: relative;
+  background-image: url(/images/Logo\ ProgBr.png);
+  width: 50%;
+  height: 50%;
+  background-size: contain;
+  margin: auto;
+  background-repeat: no-repeat;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-orange {
+  font-family: eurostile, sans-serif;
+  display: inline-flex;
+  align-items: center;
+  align-self: center;
+  border-radius: 6px;
+  background: linear-gradient(225deg, #ffdf00 0%, #fe4d1b 48.15%, #e70154 100%);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: center;
+  padding: 18px 20px;
+  min-height: 64px;
+  white-space: nowrap;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: relative;
+  bottom: 0px;
+  transition: bottom 0.1s linear;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
